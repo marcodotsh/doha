@@ -4,7 +4,8 @@
     "verilog.languageServer.veribleVerilogLs.enabled": true,
     "verilog.formatting.verilogHDL.formatter": "verible-verilog-format",
     "verilog.ctags.path": "/usr/bin/ctags",
-    "python.formatting.provider": "yapf",
-    "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "flake8.enabled": true
 }
